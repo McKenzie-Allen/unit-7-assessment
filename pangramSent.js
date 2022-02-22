@@ -19,3 +19,5 @@ function isPangram(string) {
 
 
 console.log(isPangram("The quick brown fox jumps over the lazy dog!"));
+
+//notation is O(n)
