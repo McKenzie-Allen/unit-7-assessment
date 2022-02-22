@@ -1,6 +1,6 @@
 function uniqueLetters(word) {
     let checkArr = new Set([])
-    for (i = 0; i < word.length; i++) {
+    for (let i = 0; i < word.length; i++) {
         checkArr.add(word[i])
     }
     return (word.length === checkArr.size)
