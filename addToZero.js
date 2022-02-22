@@ -15,3 +15,5 @@ function addToZero(arr) {
 }
 
 console.log(addToZero(array))
+
+//currently this fuction is O(n^2)
